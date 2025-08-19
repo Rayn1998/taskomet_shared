@@ -6,4 +6,7 @@ export default interface ITask extends IProject {
     executor: number | null;
     project: number;
     scene: number;
+    project_name: string;
+    scene_name: string;
+    executor_name: string | null;
 }
