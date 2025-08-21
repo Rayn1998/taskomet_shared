@@ -8,5 +8,4 @@ export default interface ITask extends IProject {
     scene: number;
     project_name: string;
     scene_name: string;
-    executor_name: string | null;
 }
