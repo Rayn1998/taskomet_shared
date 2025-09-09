@@ -1,7 +1,5 @@
 import IProject from "./Project";
 
-type SceneBase = Omit<IProject, "description">;
-
-export default interface IScene extends SceneBase {
+export default interface IScene extends IProject {
     project: number;
 }
