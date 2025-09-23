@@ -8,4 +8,5 @@ export default interface ITask extends IProject {
     scene: number;
     project_name: string;
     scene_name: string;
+    spent_hours: number;
 }
