@@ -3,5 +3,5 @@ export default interface DBconfig {
     host: string;
     password: string;
     port: number;
-    database?: string;
+    database: string;
 }
