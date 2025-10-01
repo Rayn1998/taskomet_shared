@@ -4,6 +4,10 @@ export default interface IEntityProgress {
         status: number;
         amount: number;
     }[];
+    priority: {
+        priority: number;
+        amount: number;
+    }[];
     spentHours?: number;
     executorsCount?: number;
 }
