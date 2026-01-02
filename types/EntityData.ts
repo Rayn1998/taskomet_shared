@@ -3,7 +3,7 @@ type BaseData = {
     text: string | null;
     media: string | null;
     created_at: string;
-    created_by: number;
+    created_by: number | null;
 };
 
 export interface IProjectData extends BaseData {

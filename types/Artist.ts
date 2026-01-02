@@ -2,7 +2,9 @@ export default interface IArtist {
     id: number;
     name: string;
     user_name: string;
-    tg_id?: number;
+    email: string;
+    password: string;
+    tg_id?: string;
     role: number;
-    photo_url: string;
+    photo_url?: string;
 }

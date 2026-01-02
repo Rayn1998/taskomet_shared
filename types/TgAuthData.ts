@@ -1,9 +1,9 @@
 export default interface ITelegramAuthData {
-    auth_date: number;
+    auth_date: string;
     first_name: string;
     hash: string;
     last_name: string;
     photo_url?: string;
     username: string;
-    id?: number;
+    id?: string;
 }
