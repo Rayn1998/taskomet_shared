@@ -1,4 +1,4 @@
-import IProject from "./Project";
+import type IProject from "./Project";
 
 export default interface ITask extends IProject {
     id: number;
